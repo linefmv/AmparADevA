@@ -1,9 +1,10 @@
-import './App.css';
+import RoutesMenu from './routes/RoutesMenu';
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <>      
+      <RoutesMenu/>
+    </>
   );
 }
 
