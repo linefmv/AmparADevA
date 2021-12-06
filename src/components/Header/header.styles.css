@@ -1,0 +1,9 @@
+section {
+   width: 100%;
+   height: 100vh;
+    background-image: url('../../assets/girls-coding.jpg');
+    background-size: 300px 100px;
+    background-size:cover;
+}
+
+
