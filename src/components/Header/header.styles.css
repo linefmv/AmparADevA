@@ -1,9 +1,26 @@
 section {
-   width: 100%;
-   height: 100vh;
-    background-image: url('../../assets/girls-coding.jpg');
-    background-size: 300px 100px;
-    background-size:cover;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../assets/girls-coding.jpg");
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 722px;
 }
 
+h1 {
+  background-color: blue;
+  max-width: 600px;
+  width: 100%;
+}
 
+@media (min-width: 600px) {
+  section {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
