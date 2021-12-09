@@ -1,0 +1,18 @@
+section {
+    display: grid;
+    grid-template-areas: 
+        'image title title'
+        'image description description'
+        'image description description'
+    
+}
+
+h2 {
+    grid-area: title;
+}
+img {
+    grid-area: image;
+}
+p {
+    grid-area: description;
+}
