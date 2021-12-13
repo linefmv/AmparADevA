@@ -1,11 +1,13 @@
 nav {
-  display: flex;
+  background: rgba( 240, 218, 145, 0.55 );
+  backdrop-filter: blur( 1.5px );
+  -webkit-backdrop-filter: blur( 1.5px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );  display: flex;
   width: 100%;
   flex-direction: row;
-  background-color: turquoise;
 }
 
-ul{
+ul {
   display: flex;
   list-style: none;
 }
@@ -16,8 +18,8 @@ li {
 }
 
 li a {
+  color: rgb(169, 102, 233);
+  font-weight: bold;
   text-decoration: none;
-  padding: 0 2vh;
-  color: black;
-}  
-
+  padding: 0 1.5vh;
+}

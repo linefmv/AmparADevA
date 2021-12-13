@@ -1,26 +1,37 @@
-section {
+header {
   width: 100%;
-  height: 100vh;
-  background-image: url("../../assets/girls-coding.jpg");
+  height: 80vh;
   display: flex;
-  justify-content: center;
-  text-align: center;
+  flex-direction: column;
   align-items: center;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 722px;
+  height: 520px;
+  background-color: rgb(215, 209, 219);
+}
+
+img {
+  width: 100%;
+  max-width: 240px;
+  padding-top: 3vh;
 }
 
 h1 {
-  background-color: blue;
-  max-width: 600px;
+  max-width: 280px;
   width: 100%;
+  padding: 0 2vh;
+  text-align: center;
+  font-size: clamp(1rem, 0.6444rem + 1.7778vw, 2rem);
 }
 
-@media (min-width: 600px) {
-  section {
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
+p {
+  margin-top: 0;
+  max-width: 280px;
+  width: 100%;
+  text-align: center;
+  font-size: clamp(0.8rem, 0.4867rem + 1.0667vw, 1.3rem);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(169, 102, 233);
+  font-weight: bold;
 }
