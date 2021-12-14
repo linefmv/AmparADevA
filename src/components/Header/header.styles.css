@@ -1,33 +1,33 @@
 header {
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: rgb(215, 209, 219);
 }
 
-img {
+.header-page {
   width: 100%;
-  max-width: 240px;
-  padding-top: 3vh;
+  max-width: 280px;
+  padding: 3vh 0;
 }
 
 h1 {
   max-width: 280px;
   width: 100%;
   padding: 0 2vh;
+  margin:0;
   text-align: center;
   font-size: clamp(1rem, 0.6444rem + 1.7778vw, 2rem);
-  
 }
 
-p {
-  margin-top: 0;
+.phrase-header {
+  margin-top: 2vh;
   max-width: 280px;
   width: 100%;
   text-align: center;
-  font-size: clamp(0.8rem, 0.4867rem + 1.0667vw, 1.3rem);
+  font-size: clamp(0.9rem, 0.4867rem + 1.0667vw, 1.3rem);
 }
 
 a {
