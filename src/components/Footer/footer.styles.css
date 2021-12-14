@@ -1,0 +1,10 @@
+footer {
+    margin-top: 3vh;
+     background-color: burlywood;
+     padding-top: 1vh;
+}
+.footer-phrase {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
