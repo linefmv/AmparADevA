@@ -1,19 +1,22 @@
 section {
+    display: flex;
     justify-content: center;
-    justify-items: center;
-    display: grid;
-    grid-template-areas: 
-        'title'
-        'image'
-        'description'
+    flex-direction: column;
+    align-items: center;
 }
 
 h2 {
-    grid-area: title;
+text-align: center;
 }
 img {
-    grid-area: image;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 p {
-    grid-area: description;
+    font-size: clamp(0.9rem, 0.4867rem + 1.0667vw, 1.3rem);
+}
+
+.intent {
+    background-color: rgb(170, 120, 53);
 }
