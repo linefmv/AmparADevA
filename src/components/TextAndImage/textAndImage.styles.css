@@ -1,22 +1,101 @@
 section {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 h2 {
-text-align: center;
-}
-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-p {
-    font-size: clamp(0.9rem, 0.4867rem + 1.0667vw, 1.3rem);
+  text-align: center;
 }
 
-.intent {
-    background-color: rgb(170, 120, 53);
+img {
+  width: 100%;
+  max-width: 280px;
+  padding: 0 2vh;
+}
+
+p {
+  margin-top: 2vh;
+  max-width: 280px;
+  width: 100%;
+  text-align: center;
+  font-size: clamp(0.9rem, 0.4867rem + 1.0667vw, 1.3rem);
+}
+
+@media (min-width: 750px) {
+  .content-text {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1220px;
+  }
+  section {
+    display: grid;
+    grid-template-areas:
+      "image title title"
+      "image description description"
+      "image description description";
+    max-width: 700px;
+  }
+
+  img {
+    max-width: 400px;
+    grid-area: image;
+  }
+
+  p {
+    margin: 0;
+    grid-area: description;
+    max-width: 550px;
+  }
+
+  h2 {
+    grid-area: title;
+  }
+  .intent {
+    display: grid;
+    grid-template-areas:
+      "title title image"
+      "description description image"
+      "description description image";
+  }
+}
+
+@media (min-width: 1000px) {
+  .content-text {
+    width: 100%;
+    max-width: 1220px;
+    justify-content: center;
+    align-items: center;
+  }
+  section {
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    max-width: 400px;
+    grid-area: image;
+  }
+
+  p {
+    margin: 0;
+    grid-area: description;
+    max-width: 625px;
+  }
+
+  h2 {
+    grid-area: title;
+  }
+  .intent {
+    display: grid;
+    grid-template-areas:
+      "title title image"
+      "description description image"
+      "description description image";
+  }
 }

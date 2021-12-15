@@ -1,10 +1,16 @@
 footer {
-    margin-top: 3vh;
-     background-color: rgba( 240, 218, 145, 0.55 );
-     padding-top: 1vh;
+  margin-top: 3vh;
+  background-color: rgba(240, 218, 145, 0.55);
+  padding-top: 1vh;
 }
 .footer-phrase {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (min-width: 750px) {
+  footer {
+    height: 5vh;
+  }
 }

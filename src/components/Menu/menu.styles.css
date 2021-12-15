@@ -1,15 +1,19 @@
 nav {
-  background: rgba( 240, 218, 145, 0.55 );
-  backdrop-filter: blur( 1.5px );
-  -webkit-backdrop-filter: blur( 1.5px );
-  border: 1px solid rgba( 255, 255, 255, 0.18 );  display: flex;
+  background: rgba(240, 218, 145, 0.55);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   width: 100%;
+  display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 
 ul {
   display: flex;
   list-style: none;
+  align-items: center;
+  padding: 0;
 }
 
 li {
@@ -21,5 +25,33 @@ li a {
   color: rgb(169, 102, 233);
   font-weight: bold;
   text-decoration: none;
-  padding: 0 1.5vh;
+  font-size: .87rem;
+  align-items: center
+}
+
+.logo-link {
+  max-width: 100px;
+  width: 100%;
+  align-items: center
+}
+
+@media (min-width: 750px) {
+  .logo-link {
+    max-width: 150px;
+    width: 100%;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  li a {
+    font-size: 1.5rem;
+  }
+
+  ul {
+    width: 100%;
+    justify-content: space-around;
+  }
 }

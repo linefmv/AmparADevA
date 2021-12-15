@@ -11,6 +11,7 @@ header {
   width: 100%;
   max-width: 280px;
   padding: 3vh 0;
+  grid-area: 'header';
 }
 
 h1 {
@@ -20,6 +21,7 @@ h1 {
   margin:0;
   text-align: center;
   font-size: clamp(1rem, 0.6444rem + 1.7778vw, 2rem);
+  grid-area: 'title';
 }
 
 .phrase-header {
@@ -28,10 +30,39 @@ h1 {
   width: 100%;
   text-align: center;
   font-size: clamp(0.9rem, 0.4867rem + 1.0667vw, 1.3rem);
+  grid-area: 'description';
 }
 
-a {
+.link-header {
   text-decoration: none;
   color: rgb(169, 102, 233);
   font-weight: bold;
+  grid-area: 'link';
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 750px) {
+  header {
+    display: flex;
+    flex-direction: row;
+  }
+  .header-page {
+    max-width: 400px;
+    padding-right: 3vh;
+  }
+
+  .phrase-and-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h1, .phrase-header {
+    max-width: 800px;
+  }
+  .link-header{
+    font-size: clamp(1rem, 0.6444rem + 1.7778vw, 1.2rem);
+  }
 }
