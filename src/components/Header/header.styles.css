@@ -49,7 +49,7 @@ h1 {
   }
   .header-page {
     max-width: 400px;
-    padding-right: 3vh;
+    padding: 0 3vh;
   }
 
   .phrase-and-link {
