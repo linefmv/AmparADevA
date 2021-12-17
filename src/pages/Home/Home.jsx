@@ -16,7 +16,7 @@ const Home = () => {
         title={"Porque o AmparADevA foi criado?"}
         image={about}
         description={
-          "Embora haja várias iniciativas educacionais para inserir mulheres na tecnologia, o número delas ainda é menor no setor. E há inúmeras barreiras para seguir nesse segmento, e o Amparas sabendo disso vem com a ideia de auxiliar na afirmação da mulher na área."
+          "Embora haja várias iniciativas educacionais para inserir mulheres na tecnologia, o número delas ainda é menor no setor, segundo uma pesquisa realizada pela Thoughworks. Inúmeras são as barreiras para seguir nesse segmento, e o AmparAs sabendo disso vem com a ideia de auxiliar na afirmação da mulher na área."
         }
       />
       <TextAndImage
@@ -24,7 +24,7 @@ const Home = () => {
         title={"Sobre o AmparADevA"}
         image={chatGirls}
         description={
-          "Esse projeto tem o intuito de conectar mulher com mais experiência na área da tecnologia para auxiliar nas dúvidas sobre carreira, portifolio, tecnologias, empresas, exercícios e vagas através de conversas. Basta você se inscrever e iremos entrar em contato com você! E ele é para todas, para ti que tem um tempinho e quer ajudar e para você que precisa de ajuda!"
+          "Esse projeto tem o intuíto de conectar mulher com mais experiência na área da tecnologia para auxiliar nas dúvidas sobre carreira, portifólio, stacks, conhecer empresas, pair programming, resolução de exercícios e aplicações em vagas. Basta você se inscrever e iremos entrar em contato com você! O AmparAs é para todas, para ti que tem um tempinho e quer ajudar e para você que precisa de ajuda!"
         }
       />
       <Footer />

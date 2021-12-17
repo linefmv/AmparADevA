@@ -64,6 +64,7 @@ h1 {
     max-width: 800px;
   }
   .link-header {
+    margin-top: 1vh;
     font-size: clamp(1rem, 0.6444rem + 1.7778vw, 1.2rem);
   }
 }

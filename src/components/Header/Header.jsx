@@ -7,13 +7,13 @@ const Header = () => {
       <img src={logo} className="header-page" alt="draw of girl programming" />
       <div class="phrase-and-link">
         <h1>
-          Todes sabemos que os inícios os inícios nem sempre são fáceis, mas
+          Todes sabemos que os inícios nem sempre são fáceis, mas
           eles definem a nossa jornada. E se no teu início tivesse uma mentora
-          incrível para te amparar?
+          incrível para te AmparAr?
         </h1>
         <p className="phrase-header">
-          Torne isso possível para mulher em início de carreira. Seja uma
-          mentora!
+          Torne isso possível. Seja uma
+          mentora ou mentorada!
         </p>
         <a className="link-header" href="/subscribe">
           Inscreva-se!
