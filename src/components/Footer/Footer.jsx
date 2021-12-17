@@ -4,7 +4,7 @@ const Footer = () => {
     <footer>
       <p className="footer-phrase">
         Feito com o <span className="heart">♥ </span>para a Reprograma por{" "}
-        <a className="footer-github" href="github.com/linefmv">
+        <a className="footer-github" href="https://github.com/linefmv">
           Aline Viana
         </a>
       </p>
