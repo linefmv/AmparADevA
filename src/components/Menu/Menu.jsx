@@ -7,7 +7,9 @@ const Menu = () => {
     <nav>
       <ul>
         <li className="links">
-          <Link to="/"><img src={Ampara} className="logo-link" alt="AmparA Devas logo"/></Link>
+          <Link to="/">
+            <img src={Ampara} id="logo-link" alt="AmparA Devas logo" />
+          </Link>
         </li>
         <li className="links">
           <Link to="/subscribe">Inscreva-se</Link>
