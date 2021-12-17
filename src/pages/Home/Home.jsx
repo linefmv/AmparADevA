@@ -6,7 +6,6 @@ import "./home.styles.css";
 import chatGirls from "../../assets/chat-girls.svg";
 import about from "../../assets/about.svg";
 
-
 const Home = () => {
   return (
     <>
@@ -28,7 +27,7 @@ const Home = () => {
           "Esse projeto tem o intuito de conectar mulher com mais experiência na área da tecnologia para auxiliar nas dúvidas sobre carreira, portifolio, tecnologias, empresas, exercícios e vagas através de conversas. Basta você se inscrever e iremos entrar em contato com você! E ele é para todas, para ti que tem um tempinho e quer ajudar e para você que precisa de ajuda!"
         }
       />
-      <Footer/>
+      <Footer />
     </>
   );
 };

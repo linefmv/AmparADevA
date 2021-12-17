@@ -1,9 +1,9 @@
-import RoutesMenu from './routes/RoutesMenu';
+import RoutesMenu from "./routes/RoutesMenu";
 
 function App() {
   return (
-    <>      
-      <RoutesMenu/>
+    <>
+      <RoutesMenu />
     </>
   );
 }

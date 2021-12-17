@@ -27,7 +27,7 @@ const Contact = () => {
           </li>
         </ul>
         <div className="aboutME-Section">
-        <h3 className="AboutMe-Title">Sobre mim</h3>
+          <h3 className="AboutMe-Title">Sobre mim</h3>
           <img
             className="ME"
             src="https://avatars.githubusercontent.com/u/77216386?v=4"

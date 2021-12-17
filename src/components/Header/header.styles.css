@@ -11,17 +11,17 @@ header {
   width: 100%;
   max-width: 280px;
   padding: 3vh 0;
-  grid-area: 'header';
+  grid-area: "header";
 }
 
 h1 {
   max-width: 280px;
   width: 100%;
   padding: 0 2vh;
-  margin:0;
+  margin: 0;
   text-align: center;
   font-size: clamp(1rem, 0.6444rem + 1.7778vw, 2rem);
-  grid-area: 'title';
+  grid-area: "title";
 }
 
 .phrase-header {
@@ -30,14 +30,14 @@ h1 {
   width: 100%;
   text-align: center;
   font-size: clamp(0.9rem, 0.4867rem + 1.0667vw, 1.3rem);
-  grid-area: 'description';
+  grid-area: "description";
 }
 
 .link-header {
   text-decoration: none;
   color: rgb(169, 102, 233);
   font-weight: bold;
-  grid-area: 'link';
+  grid-area: "link";
   display: flex;
   justify-content: center;
 }
@@ -59,10 +59,11 @@ h1 {
     justify-content: center;
   }
 
-  h1, .phrase-header {
+  h1,
+  .phrase-header {
     max-width: 800px;
   }
-  .link-header{
+  .link-header {
     font-size: clamp(1rem, 0.6444rem + 1.7778vw, 1.2rem);
   }
 }
