@@ -6,7 +6,7 @@ const Header = () => {
     <header>
       <img src={logo} className="header-page" alt="draw of girl programming" />
       <div class="phrase-and-link">
-        <h1>
+        <h1 className="header-title">
           Todes sabemos que os inícios nem sempre são fáceis, mas
           eles definem a nossa jornada. E se no teu início tivesse uma mentora
           incrível para te Amparar?

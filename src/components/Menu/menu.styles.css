@@ -30,6 +30,12 @@ li a {
   font-family: "Anonymous Pro", monospace;
 }
 
+.links-menu:hover {
+  background-color:#fff;
+  padding: 1vh;
+  border-radius: 1vh;
+}
+
 #logo-link {
   max-width: 130px;
   width: 100%;

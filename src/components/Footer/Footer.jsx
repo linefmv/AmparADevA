@@ -5,7 +5,7 @@ const Footer = () => {
       <p className="footer-phrase">
         Feito com o <span className="heart">♥ </span>para a Reprograma por
         <a className="footer-github" href="https://github.com/linefmv">
-          Aline Viana
+           Aline Viana
         </a>
       </p>
     </footer>

@@ -11,10 +11,10 @@ const Menu = () => {
             <img src={Ampara} id="logo-link" alt="AmparA Devas logo" />
           </Link>
         </li>
-        <li className="links">
+        <li className="links-menu">
           <Link to="/subscribe">Inscreva-se</Link>
         </li>
-        <li className="links">
+        <li className="links-menu">
           <Link to="/contact">Contato</Link>
         </li>
       </ul>
