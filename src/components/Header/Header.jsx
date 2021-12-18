@@ -9,7 +9,7 @@ const Header = () => {
         <h1>
           Todes sabemos que os inícios nem sempre são fáceis, mas
           eles definem a nossa jornada. E se no teu início tivesse uma mentora
-          incrível para te AmparAr?
+          incrível para te Amparar?
         </h1>
         <p className="phrase-header">
           Torne isso possível. Seja uma
